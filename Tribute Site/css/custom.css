@@ -1,0 +1,29 @@
+:root {
+    --main-bg-color: #ffffff; 
+	--main-accent-color: #2a4362; 
+}
+
+body{
+	background-color:var(--main-bg-color);	
+}
+nav__text{
+	color:var(--main-accent-color);
+}
+
+.navbar__custom {
+    background-color: #c0c0c0;
+}
+/* change the brand and text color */
+.navbar__custom .navbar-brand,
+.navbar__custom .navbar-text {
+    color: rgba(42,67,98,.8);
+}
+/* change the link color */
+.navbar__custom .navbar-nav .nav-link {
+    color: rgba(42,67,98,.5);
+}
+/* change the color of active or hovered links */
+.navbar__custom .nav-item.active .nav-link,
+.navbar__custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
